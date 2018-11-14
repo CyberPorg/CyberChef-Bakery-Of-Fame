@@ -1,0 +1,7 @@
+Regular_expression('User defined','1{(.*?)}1{\'\\+\'\\(',false,false,false,false,false,false,'List capture groups')
+Find_/_Replace({'option':'Regex','string':'\'\\+\''},'',true,false,true,false)
+Reverse('Character')
+From_Base64('A-Za-z0-9+/=',true)
+Raw_Inflate(0,0,'Adaptive',false,false)
+Regular_expression('URL','([A-Za-z]+://)([-\\w]+(?:\\.\\w[-\\w]*)+)(:\\d+)?(/[^.!,?"<>\\[\\]{}\\s\\x7F-\\xFF]*(?:[.!,?]+[^.!,?"<>\\[\\]{}\\s\\x7F-\\xFF]+)*)?',true,true,false,false,false,false,'List matches')
+Split('@','\\n')
